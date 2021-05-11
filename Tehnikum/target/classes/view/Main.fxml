@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="471.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controllers.StudentController">
+   <children>
+      <TableView fx:id="studentTable" layoutY="-2.0" prefHeight="357.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="idColumn" prefWidth="75.0" text="id" />
+          <TableColumn fx:id="lastnameColumn" prefWidth="99.0" text="Lastname" />
+            <TableColumn fx:id="firstnameColumn" prefWidth="81.0" text="Firstname" />
+            <TableColumn fx:id="patronumikColumn" prefWidth="95.0" text="Patronumik" />
+            <TableColumn fx:id="specialColumn" prefWidth="157.0" text="Special" />
+            <TableColumn fx:id="AverageScoreColumn" prefWidth="92.0" text="Average_score" />
+        </columns>
+      </TableView>
+      <Button fx:id="addStudent" layoutX="639.0" layoutY="57.0" mnemonicParsing="false" onAction="#onactionAddStudent" prefHeight="43.0" prefWidth="126.0" text="Добавить студента" />
+   </children>
+</AnchorPane>

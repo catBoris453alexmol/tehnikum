@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="552.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controllers.RegStudentController">
+   <children>
+      <Button fx:id="addStudent" layoutX="161.0" layoutY="465.0" mnemonicParsing="false" onAction="#onactionAdd" text="Добавить" />
+      <Label layoutX="153.0" layoutY="133.0" text="firstname" />
+      <Label layoutX="153.0" layoutY="184.0" text="patronumik" />
+      <Label layoutX="153.0" layoutY="239.0" text="special" />
+      <Label layoutX="153.0" layoutY="86.0" text="lastname" />
+      <Label alignment="CENTER" layoutX="195.0" layoutY="23.0" prefHeight="17.0" prefWidth="268.0" text="Добавление Студента" />
+      <TextField fx:id="txtlastName" layoutX="274.0" layoutY="82.0" />
+      <TextField fx:id="txtFirstName" layoutX="274.0" layoutY="129.0" />
+      <TextField fx:id="txtPatronumik" layoutX="274.0" layoutY="180.0" />
+      <Label fx:id="lblInfo" layoutX="24.0" layoutY="514.0" prefHeight="17.0" prefWidth="62.0" text="Статус:" />
+      <ComboBox fx:id="SpecialList" layoutX="274.0" layoutY="235.0" prefWidth="150.0" />
+      <Label layoutX="157.0" layoutY="291.0" text="Дата поступления" />
+      <Label layoutX="157.0" layoutY="326.0" text="Курс" />
+      <Label layoutX="157.0" layoutY="366.0" text="Номер группы" />
+      <TextField fx:id="txtCource" layoutX="275.0" layoutY="322.0" />
+      <TextField fx:id="txtGroup" layoutX="275.0" layoutY="362.0" />
+      <Label layoutX="162.0" layoutY="405.0" prefHeight="17.0" prefWidth="62.0" text="Факультет" />
+      <ComboBox fx:id="listFacult" layoutX="274.0" layoutY="401.0" prefWidth="150.0" />
+      <DatePicker fx:id="dateReceipt" layoutX="268.0" layoutY="287.0" />
+   </children>
+</AnchorPane>
